@@ -1,4 +1,4 @@
-#PriceFunnel 
+# PriceFunnel 
 
 Market Price App is a Django Application which integrates MarketStack API to fetch the End of the Day stock price data of 6 companies and store in Database.
 It runs a cronjob which runs a task from Tuesday to Saturday at 4:30am HKT (30 mins past closing time of NYSE) to fetch the stock price data and store it in DB.
